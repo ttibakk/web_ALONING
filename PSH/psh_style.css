@@ -1,0 +1,42 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.Orbit-font {
+    font-family: 'Gamja Flower', cursive;
+}
+
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #ffc107 !important;
+}
+
+
+/* 헤더 영역 */
+header {
+    background-image: linear-gradient(to top, rgba(255, 240, 200, 0), rgba(255, 240, 200, 0)), url(images/main.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+/* FOOD 섹션 */
+.card-hover:hover {
+    background-color: #ffe8ae;
+}
+
+
+
+/* 뉴스 섹션 */
+#news {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/yori.jpeg);
+    background-size: cover;
+    background-position: center;
+}
